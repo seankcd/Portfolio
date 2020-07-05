@@ -1,0 +1,57 @@
+header .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-logo {
+    margin-bottom: 0.3rem;
+}
+
+.nav-link {
+    --spacing: 0.5rem;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+/* Showcase */
+#showcase .container {
+    display: flex;
+}
+
+#showcase .showcase-content {
+    text-align: center;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 2.5rem;
+    padding-bottom: 0.4rem;
+}
+
+#showcase .showcase-content p {
+    font-size: 1rem;
+}
+
+#showcase .showcase-content .btn {
+    margin: 0.8rem 0.8rem 0.8rem 0;
+}
+
+/* My Work */
+#my-work .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
+    grid-gap: 3rem;
+}
+
+/* Contact */
+#contact .contact-container {
+    display: block;
+}
+
+#contact .contact-container p {
+    display: none;
+}
