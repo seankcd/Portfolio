@@ -377,6 +377,7 @@ My Work
   grid-gap: 6.5rem;
   grid-template-columns: repeat(auto-fit, minmax(20rem, auto));
   justify-content: center;
+  height: 100%;
 }
 #my-work .card-container .card {
   background-image: linear-gradient(135deg, rgb(53, 53, 53), rgb(71, 71, 71)); 
@@ -437,6 +438,13 @@ My Work
 
 #my-work .card-container .card .overlay-container .overlay-text a:hover {
   color: var(--primary-color);
+}
+
+#my-work .card-container .card .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #my-work .card-container .card .container h3 {
